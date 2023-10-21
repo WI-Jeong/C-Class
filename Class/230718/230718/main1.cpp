@@ -8,7 +8,7 @@ int main()
 	/*
 	If문
 	분기문의 한 종류. IF문은 조건을 체크해주는 기능을 한다.
-	
+
 	형태
 	if(조건식) { }
 	→ 조건식이 true일 때 코드블록 {} 안에있는 코드가 동작되며, 조건식이 false일 경우 동작되지 않는다.
@@ -34,7 +34,7 @@ int main()
 	const int iCritical = 0x00000010;
 	int iBuf = iAttack | iHP | iCritical;
 
-	if ((iBuf & iAttack) !=0)
+	if ((iBuf & iAttack) != 0)
 		std::cout << "Attack 버프가 있습니다." << std::endl;
 	if ((iBuf & iArmor) != 0)
 		std::cout << "Armor 버프가 있습니다." << std::endl;
@@ -70,11 +70,9 @@ int main()
 	srand((unsigned int)time(0));
 
 	std::cout << rand() << std::endl;
-	std::cout << (rand()%100) << std::endl;
-	std::cout << (rand() % 101+100) << std::endl;
-
-
-
+	std::cout << (rand() % 100) << std::endl;
+	std::cout << (rand() % 101 + 100) << std::endl;
+	// %: 나머지 연산자. /으로 나누는건 몫구하는거임.
 
 
 	return 0;
