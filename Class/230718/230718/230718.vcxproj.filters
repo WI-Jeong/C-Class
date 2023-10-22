@@ -27,5 +27,11 @@
     <ClCompile Include="main3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="main5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RSP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
