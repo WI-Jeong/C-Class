@@ -151,7 +151,9 @@
     <ClCompile Include="RSP2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="RSP3.cpp" />
+    <ClCompile Include="RSP3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="RSP5.cpp" />
     <ClCompile Include="RSPF.cpp" />
   </ItemGroup>
